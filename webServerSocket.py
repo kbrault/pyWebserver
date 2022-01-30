@@ -30,6 +30,7 @@ while True:
     # Log the request
     print(request_data.decode('utf-8'))
 
+    # Bytes
     http_response = b"""\
 HTTP/1.1 200 OK
 
